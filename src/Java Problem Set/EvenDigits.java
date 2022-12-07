@@ -31,7 +31,7 @@ public class EvenDigits {
         if (num == 0) {
             return 1;
         }
-        return (int) (Math.log10(num)) + 1;//Important 
+        return (int) (Math.log10(num)) + 1;//Important Find number of digits
     }
 
     // Another Function to count number of digits
